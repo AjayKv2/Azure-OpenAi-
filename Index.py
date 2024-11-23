@@ -8,24 +8,6 @@ st.title("Azure OpenAI Chatbot")
 endpoint_url = st.secrets["AZURE_OPENAI_ENDPOINT"]
 api_key = st.secrets["AZURE_OPENAI_API_KEY"]
 
-st.write(f"Endpoint: {endpoint_url}")  # Optional, for testing
-st.write(f"API Key: {api_key}")  
-
-# import streamlit as st
-# import requests
-
-
-# # Load environment variables securely
-# from dotenv import load_dotenv
-# load_dotenv()
-
-# # Streamlit app title
-# st.title("Azure OpenAI Chatbot")
-
-# # Azure OpenAI credentials
-# endpoint_url = st.secrets("AZURE_OPENAI_ENDPOINT")  # Replace with your endpoint URL
-# api_key = st.secrets("AZURE_OPENAI_API_KEY")  # Replace with your API key
-
 # Initialize session state for chat history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
