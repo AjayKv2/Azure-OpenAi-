@@ -1,5 +1,7 @@
-Azure OpenAI Chatbot
+**Azure OpenAI Chatbot**
+________________________________________
 Overview
+
 This repository contains the implementation of a chatbot using Streamlit and Azure OpenAI services. The chatbot enables users to interact with an AI model by sending messages and receiving detailed, context-aware responses. The application leverages the Azure OpenAI API to process user inputs and generate responses.
 Features
 •	User-friendly Streamlit interface.
